@@ -30,11 +30,17 @@ namespace DataSheetOne
         /// </summary>
         private void InternalStartup()
         {
-            this.Startup += new System.EventHandler(Sheet1_Startup);
-            this.Shutdown += new System.EventHandler(Sheet1_Shutdown);
+            this.btn_text.Click += new System.EventHandler(this.btn_text_Click);
+            this.Startup += new System.EventHandler(this.Sheet1_Startup);
+            this.Shutdown += new System.EventHandler(this.Sheet1_Shutdown);
+
         }
 
         #endregion
 
+        private void btn_text_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Showing Text");
+        }
     }
 }

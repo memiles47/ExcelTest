@@ -20,6 +20,8 @@ namespace DataSheetOne {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         private global::System.Object missing = global::System.Type.Missing;
         
+        internal Microsoft.Office.Tools.Excel.Controls.Button btn_text;
+        
         /// 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -129,6 +131,7 @@ namespace DataSheetOne {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void InitializeControls() {
+            this.btn_text = new Microsoft.Office.Tools.Excel.Controls.Button(Globals.Factory, this.ItemProvider, this.HostContext, "1BD4D61C31492414C321A40F1557A9B627A7C1", "1BD4D61C31492414C321A40F1557A9B627A7C1", this, "btn_text");
         }
         
         /// 
@@ -136,6 +139,19 @@ namespace DataSheetOne {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void InitializeComponents() {
+            // 
+            // btn_text
+            // 
+            this.btn_text.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_text.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_text.Name = "btn_text";
+            this.btn_text.Text = "Text";
+            this.btn_text.UseVisualStyleBackColor = false;
+            // 
+            // Sheet1
+            // 
+            this.btn_text.BindingContext = this.BindingContext;
         }
         
         /// 
