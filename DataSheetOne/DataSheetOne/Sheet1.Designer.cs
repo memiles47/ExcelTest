@@ -142,11 +142,12 @@ namespace DataSheetOne {
             // 
             // btn_text
             // 
-            this.btn_text.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_text.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btn_text.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_text.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_text.Name = "btn_text";
-            this.btn_text.Text = "Text";
+            this.btn_text.Text = "Message Box\r\nPopup";
             this.btn_text.UseVisualStyleBackColor = false;
             // 
             // Sheet1
